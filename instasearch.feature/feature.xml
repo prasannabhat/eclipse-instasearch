@@ -32,8 +32,6 @@ http://www.eclipse.org/org/documents/epl-v10.html
 
    <requires>
       <import plugin="org.eclipse.ui" version="3.6.0" match="greaterOrEqual"/>
-      <import plugin="org.apache.lucene" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.analysis" version="2.9.1" match="equivalent"/>
       <import plugin="org.apache.commons.httpclient"/>
       <import plugin="org.apache.commons.lang"/>
       <import plugin="org.eclipse.ui.ide"/>
@@ -45,12 +43,6 @@ http://www.eclipse.org/org/documents/epl-v10.html
       <import plugin="org.eclipse.search"/>
       <import plugin="org.eclipse.jface.text"/>
       <import plugin="org.eclipse.debug.ui"/>
-      <import plugin="org.apache.lucene.highlighter" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.memory" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.misc" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.queries" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.snowball" version="2.9.1" match="equivalent"/>
-      <import plugin="org.apache.lucene.spellchecker" version="2.9.1" match="equivalent"/>
    </requires>
 
    <plugin
