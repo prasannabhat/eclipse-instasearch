@@ -8,8 +8,6 @@ Bundle-DocURL: https://github.com/ajermakovics/eclipse-instasearch
 Bundle-UpdateLocation: http://code.inf.unibz.it/instasearch/downloads/ver.php
 ErrorReportURL: http://code.inf.unibz.it/instasearch/downloads/contact/send.php
 Require-Bundle: org.eclipse.ui;bundle-version="3.6.0",
- org.apache.lucene;bundle-version="[2.9.1,2.9.2]",
- org.apache.lucene.analysis;bundle-version="[2.9.1,2.9.2)",
  org.apache.commons.httpclient,
  org.apache.commons.lang,
  org.eclipse.ui.ide,
@@ -23,15 +21,10 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.6.0",
  org.eclipse.debug.ui,
  org.eclipse.jdt.ui;resolution:=optional,
  org.eclipse.jdt.core;resolution:=optional,
- org.junit;bundle-version="4.0.0";resolution:=optional,
- org.apache.lucene.highlighter;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.memory;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.misc;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.queries;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.snowball;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.spellchecker;bundle-version="[2.9.1,2.9.2)"
+ org.junit;bundle-version="4.0.0";resolution:=optional
 Bundle-Vendor: Andrejs Jermakovics
 Bundle-ClassPath: lib/lucene-highlighter-1.9.1.jar,
+ lib/lucene-core-2.9.1.jar,
  .
 Eclipse-LazyStart: false
 Bundle-ActivationPolicy: lazy
