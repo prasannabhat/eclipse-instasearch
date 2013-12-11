@@ -9,7 +9,6 @@ Bundle-UpdateLocation: http://code.inf.unibz.it/instasearch/downloads/ver.php
 ErrorReportURL: http://code.inf.unibz.it/instasearch/downloads/contact/send.php
 Require-Bundle: org.eclipse.ui;bundle-version="3.6.0",
  org.apache.commons.httpclient,
- org.apache.commons.lang,
  org.eclipse.ui.ide,
  org.eclipse.ui.editors,
  org.eclipse.ui.workbench.texteditor,
@@ -25,6 +24,7 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.6.0",
 Bundle-Vendor: Andrejs Jermakovics
 Bundle-ClassPath: lib/lucene-highlighter-1.9.1.jar,
  lib/lucene-core-2.9.1.jar,
+ lib/commons-lang3-3.1.jar,
  .
 Eclipse-LazyStart: false
 Bundle-ActivationPolicy: lazy
